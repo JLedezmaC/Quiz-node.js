@@ -1,4 +1,4 @@
-exports.OrderNumbers = function(object){
+exports.ObjectToArray = function(object){
     let array = [];
     for(let i = 0; i <object.length; i++){
         array.push(object[i]);
@@ -16,7 +16,6 @@ function orderList(array){
         Si el resultado es negativo, a se ordena antes que b.
         Si el resultado es positivo, b se ordena antes de a.
         Si el resultado es 0, nada cambia. 
-        6 8 
     */
 }
 
